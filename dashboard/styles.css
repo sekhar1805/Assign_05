@@ -1,0 +1,156 @@
+.container {
+  background: lightgray;
+  width: 70vw;
+  height: 60vh;
+  margin: 50px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.card-1 {
+  background: #fff;
+  width: 450px;
+  height: 150px;
+  box-sizing: border-box;
+  position: relative;
+  border-radius: 10px;
+  box-shadow: blue -5px 0;
+  padding-left: 10px;
+}
+.stats {
+  width: 135px;
+  height: 135px;
+  border-radius: 50%;
+  opacity: 0.2;
+}
+
+.icon {
+  margin-top: 5px;
+  position: absolute;
+  top: 0;
+  left: 300px;
+}
+.text {
+  text-transform: uppercase;
+  color: blue;
+  font-weight: 400;
+}
+.value {
+  font-size: 35px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 900;
+  font-style: bold;
+  opacity: 0.2;
+}
+
+/* card-2 */
+.card-2 {
+  background: #fff;
+  width: 400px;
+  height: 150px;
+  box-sizing: border-box;
+  position: relative;
+  border-radius: 10px;
+  box-shadow: rgb(0, 225, 255) -5px 0;
+  padding-left: 10px;
+}
+.batch {
+  width: 135px;
+  height: 135px;
+  border-radius: 50% cover;
+  opacity: 0.1;
+}
+
+.icon-1 {
+  margin-top: 5px;
+  position: absolute;
+  top: 0;
+  left: 260px;
+}
+.text-1 {
+  text-transform: uppercase;
+  color: rgb(0, 225, 255);
+  font-weight: 400;
+}
+.value-1 {
+  font-size: 35px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 900;
+  font-style: bold;
+  opacity: 0.2;
+}
+/* card-3 */
+.card-3 {
+  background: #fff;
+  width: 400px;
+  height: 150px;
+  box-sizing: border-box;
+  position: relative;
+  border-radius: 10px;
+  box-shadow: green -5px 0;
+  padding-left: 10px;
+}
+.degree {
+  width: 135px;
+  height: 135px;
+  border-radius: 50%;
+  opacity: 0.2;
+}
+
+.icon-2 {
+  margin-top: 5px;
+  position: absolute;
+  top: 0;
+  left: 260px;
+}
+.text-2 {
+  text-transform: uppercase;
+  color: green;
+  font-weight: 400;
+}
+.value-2 {
+  font-size: 35px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 900;
+  font-style: bold;
+  opacity: 0.2;
+}
+/* card-4 */
+.card-4 {
+  background: #fff;
+  width: 450px;
+  height: 150px;
+  box-sizing: border-box;
+  position: relative;
+  border-radius: 10px;
+  box-shadow: orange -5px 0;
+  padding-left: 10px;
+}
+.certificate {
+  width: 135px;
+  height: 135px;
+  border-radius: 50%;
+  opacity: 0.2;
+}
+
+.icon-3 {
+  margin-top: 5px;
+  position: absolute;
+  top: 0;
+  left: 300px;
+}
+.text-3 {
+  text-transform: uppercase;
+  color: orange;
+  font-weight: 400;
+}
+.value-3 {
+  font-size: 35px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 900;
+  font-style: bold;
+  opacity: 0.2;
+}
